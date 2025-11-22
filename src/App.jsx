@@ -19,7 +19,8 @@ import {
   Mic,
   TrendingUp,
   FileText,
-  Youtube
+  Youtube,
+  LinkedinIcon
 } from 'lucide-react';
 
 const Navigation = ({ activeSection, scrollToSection, mobileMenuOpen, setMobileMenuOpen }) => {
@@ -718,7 +719,7 @@ export default function App() {
               <span>GitHub</span>
             </a>
             <a href="https://www.linkedin.com/in/isaac-he/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
-              <Github size={20} />
+              <LinkedinIcon size={20} />
               <span>LinkedIn</span>
             </a>            
           </div>
