@@ -717,6 +717,10 @@ export default function App() {
               <Github size={20} />
               <span>GitHub</span>
             </a>
+            <a href="https://www.linkedin.com/in/isaac-he/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+              <Github size={20} />
+              <span>LinkedIn</span>
+            </a>            
           </div>
           <p className="text-sm">
             © {new Date().getFullYear()} Isaac He. All rights reserved.
