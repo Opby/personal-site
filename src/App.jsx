@@ -168,12 +168,26 @@ export default function App() {
         </div>
         
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center sm:px-6 lg:px-8">
+          
+          {/* Profile Picture Added Here */}
+          <div className="mb-8 relative mx-auto w-fit group">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 blur-xl opacity-30 rounded-full group-hover:opacity-50 transition-opacity duration-500"></div>
+            <img 
+              src="https://media.licdn.com/dms/image/v2/D5603AQEy4GyMYUIacQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719432676422?e=1765411200&v=beta&t=aLT76orhWdPF7Gza7ATF68DgtQmRCB7RLSuriPyFpcQ" 
+              alt="Isaac He Profile" 
+              className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-slate-800 shadow-2xl mx-auto"
+            />
+          </div>
+
           <div className="inline-block px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-300 text-sm font-medium mb-8 animate-fade-in-up">
             Student • Researcher • Innovator
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-6 leading-tight">
-            Bridging <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">History</span> & <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-300">Technology</span>
+          
+          {/* Updated Headline to Highlight Education - Smaller Font & 2 Lines */}
+          <h1 className="text-3xl md:text-5xl font-bold text-white tracking-tight mb-6 leading-tight">
+            Bridging <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">History</span> & 
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-300"> Technology</span> <br />
+            to Transform <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-300">Education</span>
           </h1>
           <p className="mt-4 text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed mb-10">
             My mission is to make history and cultural education accessible for youth around the world using the latest AI and hardware technologies.
